@@ -8,7 +8,7 @@
       "../.docker/python_code/docker-compose.yml"
     ],
     "service": "python_code",
-    "workspaceFolder": "/opt/python_code",
+    "workspaceFolder": "/opt/app",
     "settings": {
       "terminal.integrated.shell.linux": "/bin/bash"
     },

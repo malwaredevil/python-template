@@ -2,6 +2,9 @@
 # DO THIS WHEN THE CONTAINER STARTS
 set -e
 
+cd /opt/app/src
+python3 ./initialize.py
+
 
 echo "***********************************************************************************"
 echo "**                PYTHON CODE CONTAINER SETUP COPMLETE                           **"
