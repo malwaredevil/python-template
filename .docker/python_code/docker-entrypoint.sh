@@ -20,4 +20,4 @@ echo "**************************************************************************
 
 
 # CONTINUE RUNNING AFTER THIS SCRIPT COMPLETES
-exec $@
+exec "$@"
