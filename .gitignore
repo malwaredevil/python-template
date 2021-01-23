@@ -133,14 +133,6 @@ dmypy.json
 .pyc
 .vscode-root
 
-# build
-cti/
-malpedia_to_misp/
-misp-galaxy/
-dependencies/
-db/
-malpedia/
-
 #ssh key protection
 ssh/*
 !.ssh/.gitkeep

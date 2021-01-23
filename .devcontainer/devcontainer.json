@@ -3,12 +3,12 @@
 // 2. Select "Remote Containers - Reopen in container"
 
 {
-    "name": "malpedia_to_misp",
+    "name": "python_code",
     "dockerComposeFile": [
-      "../.docker/m2m/docker-compose.yml"
+      "../.docker/python_code/docker-compose.yml"
     ],
-    "service": "malpedia_to_misp",
-    "workspaceFolder": "/opt/m2m",
+    "service": "python_code",
+    "workspaceFolder": "/opt/python_code",
     "settings": {
       "terminal.integrated.shell.linux": "/bin/bash"
     },
@@ -16,7 +16,15 @@
       "ms-python.vscode-pylance",
       "ms-python.python",
       "editorconfig.editorconfig",
-      "ms-ossdata.vscode-postgresql",
-      "ms-azuretools.vscode-docker"
+      "ms-azuretools.vscode-docker",
+      "yzhang.markdown-all-in-one",
+      "shd101wyy.markdown-preview-enhanced",
+      "ms-python.anaconda-extension-pack",
+      "aaron-bond.better-comments",
+      "ms-azuretools.vscode-docker",
+      "codezombiech.gitignore",
+      "njpwerner.autodocstring",
+      "mikeshaker.python-essentials",
+      "visualstudioexptteam.vscodeintellicode"
     ]
   }
