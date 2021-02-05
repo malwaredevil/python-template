@@ -19,5 +19,5 @@ echo "**************************************************************************
 echo "***********************************************************************************"
 
 
-# CONTINUE RUNNING AFTER THIS SCRIPT COMPLETES
-exec "$@"
+# TO CONTINUE RUNNING AFTER THIS SCRIPT COMPLETES UNCOMMENT THE NEXT LINE
+# exec "$@"
