@@ -34,3 +34,13 @@ jobs:
     - name: Test with pytest
       run: |
         pytest
+
+  docker-tests:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ./docker/python_code
+    steps:
+      - uses: actions/checkout@v2
+      - name: Build the stack
+        run: docker-compose up
