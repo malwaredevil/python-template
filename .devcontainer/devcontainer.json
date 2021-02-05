@@ -5,7 +5,7 @@
 {
     "name": "python_code",
     "dockerComposeFile": [
-      "../.docker/python_code/docker-compose.yml"
+      "../docker/python_code/docker-compose.yml"
     ],
     "service": "python_code",
     "workspaceFolder": "/opt/app",

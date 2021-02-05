@@ -3,7 +3,7 @@ services:
   python_code:
     build:
       context: ../../
-      dockerfile: ./.docker/python_code/Dockerfile
+      dockerfile: ./docker/python_code/Dockerfile
     image: python_code:latest
     env_file:
       - ".env"
