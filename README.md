@@ -1,3 +1,3 @@
 # TEMPLATE FOR PYTHON PROJECTS
-![Python application](https://github.com/malwaredevil/python-template/workflows/Python%20application/badge.svg)
+![Python Template](https://github.com/malwaredevil/python-template/workflows/Python%20Template/badge.svg)
 
