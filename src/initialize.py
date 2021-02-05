@@ -1,4 +1,4 @@
-from src import INIT_RESPONSE
+from contants import INIT_RESPONSE
 def initialize():
     return INIT_RESPONSE
 
